@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache
+Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="baseLayout"
+                template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header"
+                       value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer"
+                       value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    
+    <definition name="TrangChu" extends="baseLayout">
+        <put-attribute name="title" value="The University of VietNam" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/TrangChu.jsp" />
+    </definition>
+    
+    <definition name="DangNhap" extends="baseLayout">
+        <put-attribute name="title" value="Đăng nhập" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/DangNhap.jsp" />
+    </definition>
+    
+    <definition name="QLTaiKhoan" extends="baseLayout">
+        <put-attribute name="title" value="QUẢN TRỊ VIÊN - QUẢN LÝ TÀI KHOẢN" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/QLTaiKhoan.jsp" />
+    </definition>
+    
+    <definition name="DangKy" extends="baseLayout">
+        <put-attribute name="title" value="QUẢN TRỊ VIÊN - TẠO TÀI KHOẢN" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/DangKy.jsp" />
+    </definition>
+    
+    <definition name="Diem" extends="baseLayout">
+        <put-attribute name="title" value="ĐIỂM KHÓA LUẬN" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/Diem.jsp" />
+    </definition>
+    
+    <definition name="KhoaLuan" extends="baseLayout">
+        <put-attribute name="title" value="KHÓA LUẬN" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/KhoaLuan.jsp" />
+    </definition>
+    
+    <definition name="DeTaiKhoaLuan" extends="baseLayout">
+        <put-attribute name="title" value="ĐỀ TÀI KHÓA LUẬN" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content" 
+                       value="/WEB-INF/jsp/DeTaiKhoaLuan.jsp" />
+    </definition>
+    
+    <definition name="PhanCongGiangVien" extends="baseLayout">
+        <put-attribute name="title" value="GIÁO VỤ - PHÂN CÔNG GIẢNG VIÊN" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/PhanCongGiangVien.jsp" />
+    </definition>
+    
+    <definition name="ThongKeDiem" extends="baseLayout">
+        <put-attribute name="title" value="THỐNG KÊ ĐIỂM KHÓA LUẬN" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/ThongKeDiem.jsp" />
+    </definition>
+    
+    <definition name="ThongTinNguoiDung" extends="baseLayout">
+        <put-attribute name="title" value="THÔNG TIN NGƯỜI DÙNG" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/ThongTinNguoiDung.jsp" />
+    </definition>
+    
+    <definition name="HoiDong" extends="baseLayout">
+        <put-attribute name="title" value="THÔNG TIN HỘI ĐỒNG" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/HoiDong.jsp" />
+    </definition>
+    
+    <definition name="CapNhatND" extends="baseLayout">
+        <put-attribute name="title" value="QUẢN TRỊ - CẬP NHẬT NGƯỜI DÙNG" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/CapNhatND.jsp" />
+    </definition>
+    
+    <definition name="DangKyKhoaLuan" extends="baseLayout">
+        <put-attribute name="title" value="SINH VIÊN - ĐĂNG KÝ ĐỀ TÀI KHÓA LUẬN" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/DangKyKhoaLuan.jsp" />
+    </definition>
+    
+    <definition name="KhoaLuanHD" extends="baseLayout">
+        <put-attribute name="title" value="DANH SÁCH KHÓA LUẬN THEO HỘI ĐỒNG" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/KhoaLuanHD.jsp" />
+    </definition>
+    
+    <definition name="ThongKeSV" extends="baseLayout">
+        <put-attribute name="title" value="Thống kê sinh viên" />
+        <put-attribute name="header" value="/WEB-INF/jsp/Logo.jsp" />
+        <put-attribute name="content"
+                       value="/WEB-INF/jsp/ThongKeSV.jsp" />
+    </definition>
+</tiles-definitions>

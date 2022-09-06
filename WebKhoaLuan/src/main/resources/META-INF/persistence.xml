@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="3.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="my_persistence_unit">
+    <class>com.demo.pojo.Quantri</class>
+    <class>com.demo.pojo.Nganh</class>
+    <class>com.demo.pojo.Sinhvien</class>
+    <class>com.demo.pojo.Giangvien</class>
+    <class>com.demo.pojo.Khoa</class>
+    <class>com.demo.pojo.Diem</class>
+    <class>com.demo.pojo.Giaovu</class>
+    <class>com.demo.pojo.Khoaluan</class>
+    <class>com.demo.pojo.Tieuchi</class>
+    <class>com.demo.pojo.Hoidong</class>
+    <class>com.demo.pojo.Chitiethoidong</class>
+    <class>com.demo.pojo.Chucvu</class>
+    <class>com.demo.config.Chitiethoidong</class>
+    <class>com.demo.config.Nguoidung</class>
+    <class>com.demo.config.Nganh</class>
+    <class>com.demo.config.Quantri</class>
+    <class>com.demo.config.Diem</class>
+    <class>com.demo.config.Giaovu</class>
+    <class>com.demo.config.Khoa</class>
+    <class>com.demo.config.Tieuchi</class>
+    <class>com.demo.config.Sinhvien</class>
+    <class>com.demo.config.Giangvien</class>
+    <class>com.demo.config.Chucvu</class>
+    <class>com.demo.config.Khoaluan</class>
+    <class>com.demo.config.Hoidong</class>
+    <class>com.demo.pojo.Nguoidung</class>
+    <class>com.demo.pojo.Detai</class>
+    <class>com.demo.pojo.Dangkykhoaluan</class>
+    <class>com.demo.pojo.Tongketkhoaluan</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/khoaluantndb?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="09022001"/>
+    </properties>
+  </persistence-unit>
+</persistence>
+<!--https://jakarta.ee/xml/ns/persistence-->
